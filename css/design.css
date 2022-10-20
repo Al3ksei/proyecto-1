@@ -4,17 +4,33 @@ color: rgb(239, 0, 0);}
 h1 { text-align: center;
 font-size: 80px;}
 
-ul li{ text-align: center;}
+ul li{ text-align:center;
+list-style: none;
+display: inline;}
 
 img {width: 120px;
-    height: 120px ;
+    height: 150px ;
+    margin-left: 45%;
 }
 
 figcaption{ font: italic;
 font-size: 50px;
 text-align: center}
 
+ol ul{list-style: lower-greek; }
+
 article p{box-sizing: border-box;
 font: message-box;
 border: solid 5px black;
+}
+.ju li {display: list-item;
+box-sizing: border-box;
+mask-type: alpha;
+background-color: rgb(233, 243, 243);
+}
+.caja1 { box-sizing: content-box;
+background-color: blanchedalmond;
+border: 10px;
+border:solid black;
+margin: auto;
 }
